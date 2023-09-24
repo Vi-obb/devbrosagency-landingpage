@@ -1,5 +1,5 @@
 # Next.js 13 Sanity Template with TailwindCSS and TypeScript
-This is a configured and reusable template for building web applications with Next.js, Sanity, Tailwind CSS, and TypeScript. It provides a solid foundation for your projects, enabling you to quickly set up and start developing.
+This is a configured and reusable template for building web applications with Next.js App Router, Sanity, Tailwind CSS, and TypeScript. It provides a solid foundation for your projects, enabling you to quickly set up and start developing.
 
 ## Features
 - Next.js 13: The latest version of Next.js for server-rendered React applications.
