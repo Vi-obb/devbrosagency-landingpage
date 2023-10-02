@@ -8,8 +8,8 @@ const font = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Page Title",
-  description: "Page Description",
+  title: "Devbros - Web Design & Development Agency",
+  description: "We specialize in creating delightful and robust web solutions",
 };
 
 export default function RootLayout({
