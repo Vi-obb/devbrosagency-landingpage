@@ -1,19 +1,19 @@
-const service = {
-  name: "service",
-  title: "Services",
+const approach = {
+  name: "approach",
+  title: "Approaches",
   type: "document",
   fields: [
     {
       name: "name",
-      title: "Service Name",
+      title: "Approach Name",
       type: "string",
     },
     {
       name: "content",
-      title: "Service Description",
+      title: "Approach Description",
       type: "string",
     },
   ],
 };
 
-export default service;
+export default approach;

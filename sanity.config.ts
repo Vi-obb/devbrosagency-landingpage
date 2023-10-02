@@ -3,9 +3,9 @@ import { deskTool } from "sanity/desk";
 import schemas from "./sanity/schemas";
 
 const config = defineConfig({
-  projectId: "projectId here",
+  projectId: "d4wpjqud",
   dataset: "production",
-  title: "project title here",
+  title: "Agency Website Studio",
   apiVersion: "2023-03-04",
   basePath: "/admin",
   plugins: [deskTool()],

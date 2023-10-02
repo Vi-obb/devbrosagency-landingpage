@@ -7,3 +7,7 @@
 body {
   font-family: "Bricolage Grotesque", sans-serif;
 }
+
+.span-highlight {
+  @apply italic leading-[48px] text-brand-100;
+}

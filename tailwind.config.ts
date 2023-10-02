@@ -14,14 +14,10 @@ const config: Config = {
       desktop: "1440px",
     },
     extend: {
-      backgroundColor: {
-        dark: "#0E0E0D", // Replace with your desired background color
-      },
       colors: {
-        primary: "#FFFFFF",
-        secondary: "#DB712A",
-        offprimary: "#E5E2E0",
-        dark: "#0E0E0D",
+        "brand-50": "#EFFEF9",
+        "brand-100": "#06B092",
+        'accent-100':"#4E4E4E",
       },
     },
   },

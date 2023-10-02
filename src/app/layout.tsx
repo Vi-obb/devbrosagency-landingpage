@@ -1,7 +1,11 @@
-
 import "./globals.css";
 import type { Metadata } from "next";
+import localFont from "next/font/local";
 
+const font = localFont({
+  src: "../../fonts/Mona-Sans.woff",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Page Title",
@@ -15,10 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className=" flex min-h-screen flex-col">
-        {children}
-      
-      </body>
+      <body className={`${font.className} min-h-screen`}>{children}</body>
     </html>
   );
 }
