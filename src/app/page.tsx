@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Outro from "./Outro";
 import Services from "./Services";
 import Approach from "./Approach";
+import Testimonials from "./Testimonials";
 import Footer from "./Footer";
 import { services } from "../../utils/services";
 import { approaches } from "../../utils/approach";
@@ -15,6 +16,7 @@ export default async function Home() {
       <Hero />
       <Intro />
       <Services services={services} />
+      <Testimonials />
       <Approach approaches={approaches} />
       <Outro />
       <Footer />
