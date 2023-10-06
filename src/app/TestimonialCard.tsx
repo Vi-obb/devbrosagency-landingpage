@@ -25,7 +25,7 @@ const TestimonialCard: React.FC<Props> = ({
           alt={name}
           width={70}
           height={70}
-          className="filter grayscale rounded-full"
+          className="w-16 h-16 object-cover rounded-full"
         />
         <div className="flex flex-col tablet:items-start items-center gap-[8px]">
           <p className="text-[17px] font-[600] text-brand-100 tracking-[0.68px]">

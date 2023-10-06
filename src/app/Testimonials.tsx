@@ -13,7 +13,7 @@ export default function Testimonials() {
           What our clients say <br className="hidden tablet:block" /> about us
         </h2>
         {/* testimonial subsection */}
-        <div className="grid grid-cols-1 tablet:grid-cols-2 gap-[40px] tablet:gap-x-[24px] tablet:gap-y-[48px] items-start">
+        <div className="grid grid-cols-1 tablet:grid-cols-2 gap-[40px] tablet:gap-x-[24px] tablet:gap-y-[60px] items-start">
           {/* testimonal card */}
           {testimonials.map((testimonial) => (
             <TestimonialCard

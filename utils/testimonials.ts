@@ -10,25 +10,25 @@ export const testimonials: Testimonial[] = [
   {
     id: 1,
     name: "Elorm Gabby",
-    company: "CEO Smoove Network",
+    company: "CEO, Smoove Network",
     image: "/elorm.jfif",
     testimonial:
-      "DevBros brought our vision to life with precision and creativity.  The seamless collaboration and attention to detail make them our go-to for any future projects. Highly recommended!",
+      "DevBros transformed our vision into a reality with the creation of our SEO-friendly web platform and content management system. Our team now collaborate seamlessly on blogs, projects, and news, making our operations more efficient and our online presence more dynamic.",
   },
   {
     id: 2,
-    name: "Elorm Gabby",
-    company: "CEO Smoove Network",
-    image: "/elorm.jfif",
+    name: "Selorm Promise Abedu ",
+    company: "Co-founder & CEO, Ckodon",
+    image: "/selorm.webp",
     testimonial:
-      "DevBros brought our vision to life with precision and creativity.  The seamless collaboration and attention to detail make them our go-to for any future projects. Highly recommended!",
+      "DevBros has played a pivotal role in helping us fulfill our mission at Ckodon Foundation. Their expert design of our web platform has significantly enhanced our ability to reach and support outstanding students seeking opportunities abroad",
   },
   {
     id: 3,
-    name: "Elorm Gabby",
-    company: "CEO Smoove Network",
-    image: "/elorm.jfif",
+    name: "Benjamin Boateng Kofi",
+    company: "Lead Designer and Architect, Creator Gh Company Ltd",
+    image: "/koffie.jpg",
     testimonial:
-      "DevBros brought our vision to life with precision and creativity.  The seamless collaboration and attention to detail make them our go-to for any future projects. Highly recommended!",
+      "I had the pleasure of working with DevBros on the design and development of my web portfolio, and I couldn't be more thrilled with the results. As an architectural designer, I prioritize aesthetics, functionality, and user experience, and DevBros exceeded my expectations on all fronts",
   },
 ];
