@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default async function Hero() {
   return (
@@ -7,17 +8,19 @@ export default async function Hero() {
       <div className="flex-col-reverse tablet:flex-row  flex w-full items-start gap-[27px]">
         {/* first div */}
 
-        <div className="tablet:w-1/2 flex bg-brand-50 flex-col justify-center gap-[40px] tablet:gap-[80px] shrink-0 items-stretch py-[40px] px-[20px] tablet:py-[80px] tablet:px-[40px]">
+        <div className="rounded-[20px] tablet:w-1/2 flex bg-brand-50 flex-col justify-center gap-[40px] tablet:gap-[80px] shrink-0 items-stretch py-[40px] px-[20px] tablet:py-[80px] tablet:px-[40px]">
           <h1 className="text-brand-100 text-[33px] tablet:text-[41px] desktop:text-[50px] tablet:leading-[49px] desktop:leading-[54px] tablet:tracking-[-0.82px] desktop:tracking-[-1.04px] font-400">
             We specialize in creating delightful and robust web solutions
           </h1>
-          <button className="tablet:w-1/2 flex py-[20px] bg-brand-100 rounded-lg  px-[40px] justify-center items-center">
-            {" "}
-            <span className="text-[17px] font-600 tracking-[0.68px] text-white">
+          <Link href="mailto:hello@devbros.agency" target="_blank">
+            <button className="tablet:w-1/2 flex py-[20px] bg-brand-100 rounded-lg  px-[40px] justify-center items-center">
               {" "}
-              Let&apos;s work together{" "}
-            </span>
-          </button>
+              <span className="text-[17px] font-600 tracking-[0.68px] text-white">
+                {" "}
+                Let&apos;s work together{" "}
+              </span>
+            </button>
+          </Link>
         </div>
         {/* second div */}
         <div className="tablet:w-1/2">

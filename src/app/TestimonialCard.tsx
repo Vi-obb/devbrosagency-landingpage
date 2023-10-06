@@ -28,10 +28,10 @@ const TestimonialCard: React.FC<Props> = ({
           className="w-16 h-16 object-cover rounded-full"
         />
         <div className="flex flex-col tablet:items-start items-center gap-[8px]">
-          <p className="text-[17px] font-[600] text-brand-100 tracking-[0.68px]">
+          <p className="text-center tablet:text-left text-[17px] font-[600] text-brand-100 tracking-[0.68px]">
             {name}
           </p>
-          <p className="text-[17px] leading-[21px] tracking-[0.68px]">
+          <p className="text-center tablet:text-left text-[17px] leading-[21px] tracking-[0.68px]">
             {company}
           </p>
         </div>

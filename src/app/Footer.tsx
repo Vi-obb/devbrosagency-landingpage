@@ -10,8 +10,15 @@ export default function Footer() {
     >
       <div className="flex items-center justify-center tablet:items-start gap-[12px] text-[17px] font-[600] tracking-[0.68px]">
         <Link href={""}>Dribbble</Link>
-        <Link href={""}>Instagram</Link>
-        <Link href={""}>Twitter</Link>
+        <Link
+          href={"https://instagram.com/devbrosagency?igshid=MzRlODBiNWFlZA=="}
+          target="_blank"
+        >
+          Instagram
+        </Link>
+        <Link href={"https://twitter.com/DevBrosAgency"} target="_blank">
+          Twitter
+        </Link>
       </div>
       <div className="flex justify-center items-center">
         <Image
